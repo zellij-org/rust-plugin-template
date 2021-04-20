@@ -10,5 +10,5 @@ impl ZellijPlugin for State {
 
     fn update(&mut self, event: Event) {}
 
-    fn render(&mut self, _rows: usize, cols: usize) {}
+    fn render(&mut self, rows: usize, cols: usize) {}
 }
