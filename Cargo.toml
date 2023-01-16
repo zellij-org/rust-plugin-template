@@ -5,4 +5,4 @@ authors = ["{{authors}}"]
 edition = "2018"
 
 [dependencies]
-zellij-tile = "1.0.0"
+zellij-tile = "0.34.4"

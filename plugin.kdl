@@ -1,0 +1,12 @@
+layout {
+  pane borderless=true size=1 {
+    plugin location="zellij:tab-bar"
+  }
+  pane {
+    plugin location="file:./target/wasm32-wasi/debug/{{project-name}}.wasm"
+  }
+  pane borderless=true size=2 {
+    plugin location="zellij:status-bar"
+  }
+}
+

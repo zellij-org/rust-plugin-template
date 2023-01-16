@@ -26,5 +26,5 @@ cargo install zellij
 # Building the plugin
 cargo build
 # Running in Zellij
-zellij -l plugin.yaml
+zellij -l plugin.kdl
 ```
